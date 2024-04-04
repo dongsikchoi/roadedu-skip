@@ -3,7 +3,8 @@
 
 더 좋은 방법이 분명 있을텐데 JS를 깊이 있게 다뤄본 적은 없다보니 아쉬운 대로 그냥 이렇게 썼음
 
-우클릭이 안 되게끔 되어있는데, 첫 번째 라인의 playbackrate를 조절해서 원하는 배속으로 조절 가능 (16배속 까지만 되는듯)
+우클릭이 안 되게끔 되어있는데, 첫 번째 라인의 playbackrate를 조절해서 원하는 배속으로 조절 가능 
+※ playbackrate range : (0.0625 ~ 16)
 
 현재 시간과 </br>
 ![0404_1](https://github.com/dongsikchoi/roadedu-skip/assets/52738769/bed6ab3f-e318-460d-a457-8d0694221b4e)
