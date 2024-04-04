@@ -14,6 +14,7 @@
 
 동일할 경우  </br>
 ![0404_3](https://github.com/dongsikchoi/roadedu-skip/assets/52738769/e5d735c6-a49b-4d3e-84ee-d59bff3ff7f7)
+</br>
 next로 넘어가는 간단한 스크립트임 
 (2024.04 기준으로 작성 되었으며, 혹시 안 되면 위 사진과 클래스명이 동일한지 체크해보자. )
 
