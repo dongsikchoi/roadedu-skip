@@ -44,3 +44,27 @@ auto = function checkAndClick() {
 
 tid = setInterval(auto, 1000);
 ```
+
+태그가 다른 버전 / durationText가 /0:22 이런 식으로 나와서 split 추가</br>
+![image](https://github.com/dongsikchoi/pynecone/assets/52738769/9d9eedfc-0bb7-4714-bf06-18497ed674d3)
+```
+document.querySelector('video').playbackRate = 16; // 배속
+
+auto = function checkAndClick() {
+    console.log('진행중....'); 
+
+    var currentTimeElement = document.querySelector('.time1 .playerText');
+    var durationElement = document.querySelector('.time2 .playerText');
+
+    var currentTimeText = currentTimeElement.innerText;
+    var durationText = durationElement.innerText.split('/')[1].trim();
+
+    if (currentTimeText === durationText) {
+        var nextButton = document.querySelector('._nextBtn');
+        nextButton.click();
+        console.log('Next');
+    }
+}
+
+tid = setInterval(auto, 1000);
+```
